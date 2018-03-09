@@ -1,0 +1,23 @@
+{
+  "name": "integrationcontinue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremiedevin/IntegrationContinue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeremiedevin/IntegrationContinue/issues"
+  },
+  "homepage": "https://github.com/jeremiedevin/IntegrationContinue#readme",
+  "dependencies": {
+    "mysql": "^2.15.0",
+    "nodemon": "^1.17.1"
+  }
+}
