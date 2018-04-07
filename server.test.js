@@ -12,8 +12,7 @@ var con = mysql.createConnection({
 
 con.connect(function (err) {
     if (err) {
-        console.log('ECHEC');
-        throw err;
+        console.log('ECHEC'+ '\n'+ err);
     }
     else{
         console.log('REUSSITE');
