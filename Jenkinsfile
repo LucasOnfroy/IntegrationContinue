@@ -18,4 +18,11 @@ node server.test.js'''
       }
     }
   }
+  post {
+   always {
+     echo currentBuild.result
+     slackSend(color: '#00FF00', message: "${currentBuild.result}")
+     
+   } 
+ }
 }
