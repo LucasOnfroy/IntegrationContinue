@@ -21,7 +21,7 @@ node server.test.js'''
   post {
    always {
      echo currentBuild.result
-     slackSend(color: '#00FF00', message: "${currentBuild.result}")
+     slackSend(color: '#00FF00', token: 'WnmTcMh1t5Te1FUmga2UWjyc', teamDomain: 'epsiic', channel: 'onfroy_leraisnié_dev1', message: "${currentBuild.result}")
      
    } 
  }
