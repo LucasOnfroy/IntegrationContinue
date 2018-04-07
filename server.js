@@ -1,6 +1,5 @@
 'use strict';
 require('./bootstrap');
-var mysql = require('mysql');
 
 const Hapi = require('hapi');
 const server = new Hapi.Server();
