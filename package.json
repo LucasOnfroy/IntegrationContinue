@@ -17,7 +17,22 @@
   },
   "homepage": "https://github.com/jeremiedevin/IntegrationContinue#readme",
   "dependencies": {
+    "boom": "^5.2.0",
+    "common-env": "^6.1.0",
+    "hapi": "^16.6.0",
+    "hapi-log-requests": "0.0.1",
+    "hapi-swagger": "^8.0.0",
+    "inert": "^4.2.1",
+    "joi": "github:hapijs/joi",
+    "jsonwebtoken": "^8.1.0",
+    "lodash": "^4.17.4",
+    "massive": "^4.5.0",
+    "logger": "0.0.1",
     "mysql": "^2.15.0",
-    "nodemon": "^1.17.1"
+    "nodemon": "^1.17.1",
+    "packagejson": "^1.0.1",
+    "uuid": "^3.1.0",
+    "vision": "^4.1.1",
+    "winston": "^2.4.0"
   }
 }
